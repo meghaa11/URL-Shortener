@@ -1,0 +1,39 @@
+.short-container{
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('D:\Megha\url-shortening-api\src\resources\bg-shorten-desktop.svg');
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.wrapper{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 15px 25px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+    width: 40vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.short-container .wrapper .submit-btn button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    background: cyan;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    
+}

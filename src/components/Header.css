@@ -1,0 +1,43 @@
+.header{
+    margin: 0 auto;
+    margin-top: 30px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 80vw;
+    
+}
+
+.header .header-list ul li button{
+    font: grey;
+    font-weight: 400;
+}
+
+.header .header-list ul{
+    display: flex;
+    align-items:center;
+    margin-left: -50px;
+    
+}
+
+.header .header-list ul li{
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    
+}
+
+.header .header-signup ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.header .header-signup ul li{
+    justify-content: space-between;
+    padding-right: 20px;
+}

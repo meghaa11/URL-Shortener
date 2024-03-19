@@ -1,0 +1,30 @@
+.container{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container .left .heading h1{
+    padding-top: 40px;
+    font-size: 50px;
+    color: hsl(260, 8%, 14%);
+    
+}
+
+.container .left .sub-heading{
+    padding-top: 20px;
+}
+
+.container .left .sub-heading p{
+    color: hsl(0, 0%, 75%);
+    font-weight: 500;
+}
+
+.container .right img{
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

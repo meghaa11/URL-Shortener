@@ -1,0 +1,40 @@
+footer{
+    background-color: hsl(260, 8%, 14%);
+    color: aliceblue; 
+}
+footer .max-width{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .max-width .features,.resources,.company{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+footer .max-width .company ul li button{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+footer .max-width .features ul li button{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+footer .max-width .resources ul li button{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+
+footer .max-width .icons ul{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+footer .max-width div img{
+    color: aliceblue;
+}
